@@ -1,0 +1,29 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.wrapper {
+  max-width: 800px;
+}
+
+.back {
+  margin-bottom: 16px;
+}
+
+.card {
+  width: 100%;
+}
+
+.actions {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.statusButtons {
+  flex-wrap: wrap;
+}

@@ -1,0 +1,35 @@
+.column {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  background: #f5f5f5;
+}
+
+.columnHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.columnTitle {
+  flex: 1;
+}
+
+.count {
+  background: #e0e0e0;
+  border-radius: 10px;
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #555;
+}
+
+.taskList {
+  min-height: 100px;
+}
+
+.empty {
+  display: block;
+  text-align: center;
+  padding: 16px 0;
+}
